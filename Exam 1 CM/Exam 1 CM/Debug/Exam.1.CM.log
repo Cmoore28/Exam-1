@@ -1,0 +1,19 @@
+﻿Build started 3/3/2016 8:18:54 PM.
+     1>Project "E:\CMoore CS2\Exam 1 CM\Exam 1 CM\Exam 1 CM.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Venue.cpp
+         Venue.cpp
+     1>e:\cmoore cs2\exam 1 cm\exam 1 cm\venue.cpp(25): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\cmoore cs2\exam 1 cm\exam 1 cm\venue.cpp(21): warning C4715: 'Venue::validTime': not all control paths return a value
+     1>e:\cmoore cs2\exam 1 cm\exam 1 cm\venue.cpp(40): warning C4715: 'Venue::findEvent': not all control paths return a value
+     1>e:\cmoore cs2\exam 1 cm\exam 1 cm\venue.cpp(54): warning C4715: 'Venue::findEvent': not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\CMoore CS2\Exam 1 CM\Debug\Exam 1 CM.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"E:\CMoore CS2\Exam 1 CM\Debug\Exam 1 CM.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\CMoore CS2\Exam 1 CM\Debug\Exam 1 CM.lib" /MACHINE:X86 Debug\Event.obj
+         Debug\Main.obj
+         Debug\Venue.obj
+         Exam 1 CM.vcxproj -> E:\CMoore CS2\Exam 1 CM\Debug\Exam 1 CM.exe
+     1>Done Building Project "E:\CMoore CS2\Exam 1 CM\Exam 1 CM\Exam 1 CM.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.38
